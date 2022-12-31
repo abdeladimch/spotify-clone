@@ -9,4 +9,4 @@ Spotify Clone using HTML and Tailwindcss based on my personal profile with some 
 
 ## Live Site:
 
-Spotify Clone
+[Spotify Clone](https://spotify-static-clone.netlify.app)
