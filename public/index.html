@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="./images/spotify.png" />
+    <script
+      src="https://kit.fontawesome.com/c674bdb250.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Spotify</title>
+  </head>
+  <body class="text-white pl-60 font-GothamMedium">
+    <!-- Navbar  -->
+
+    <nav
+      class="flex flex-col justify-center pl-6 pt-5 gap-12 w-max fixed top-0 left-0 h-auto"
+    >
+      <div class="flex items-center gap-3 flex-1 cursor-pointer">
+        <i class="fa-brands fa-spotify text-4xl cursor-pointer"></i>
+        <span class="text-2xl">Spotify</span>
+      </div>
+      <div class="flex flex-col text-gray-400 gap-5 text-sm">
+        <div
+          class="flex gap-3 items-center text-white font-GothamBold text-hover cursor-pointer"
+        >
+          <i class="fa-solid fa-house text-xl"></i>
+          <span>Home</span>
+        </div>
+        <div class="flex gap-3 items-center text-hover cursor-pointer">
+          <i class="fa-solid fa-magnifying-glass text-xl"></i>
+          <span>Search</span>
+        </div>
+        <div class="flex gap-3 items-center text-hover cursor-pointer">
+          <i class="fa-solid fa-list text-xl"></i>
+          <span>Your Library</span>
+        </div>
+      </div>
+      <div class="flex flex-col gap-5 text-gray-400 text-sm">
+        <div class="flex gap-3 items-center text-hover cursor-pointer">
+          <i class="fa-solid fa-plus text-xl"></i>
+          <span>Create Playlist</span>
+        </div>
+        <div class="flex gap-3 items-center text-hover cursor-pointer">
+          <i class="fa-solid fa-heart text-xl"></i>
+          <span>Liked Songs</span>
+        </div>
+        <div class="flex gap-3 items-center pl-1 text-hover cursor-pointer">
+          <i class="fa-solid fa-bookmark text-xl"></i>
+          <span>Your Episodes</span>
+        </div>
+      </div>
+      <div class="border-b border-0 border-gray-400 w-48 -mt-6"></div>
+    </nav>
+
+    <!-- playlists section -->
+
+    <section>
+      <div
+        class="flex flex-col gap-4 text-gray-400 font-GothamLight pl-6 text-sm w-80 fixed left-0 mt-96 pt-0"
+      >
+        <span class="mt-2 text-hover cursor-default">Bassen + Rhino</span>
+        <span class="text-hover cursor-default">SanaaSanea + Rhino</span>
+        <span class="text-hover cursor-default">Miss + Rhino</span>
+        <span class="text-hover cursor-default">Daily Mix 4</span>
+      </div>
+    </section>
+
+    <!-- main section -->
+
+    <section class="main-section px-5 h-min pb-16">
+      <div class="flex justify-between items-center">
+        <div class="flex gap-10 mt-2 md:mt-0">
+          <i
+            class="fa-solid fa-chevron-left bg-gray-900 opacity-60 p-3 rounded-full hover cursor-pointer"
+          ></i>
+          <i
+            class="fa-solid fa-chevron-right bg-gray-900 opacity-60 p-3 rounded-full hover cursor-pointer"
+          ></i>
+        </div>
+        <div
+          class="md:bg-black py-1 px-2 mt-2 w-36 rounded-3xl flex items-center gap-3 cursor-pointer pfp-hover"
+        >
+          <img
+            src="./images/posty.png"
+            alt="profile-img"
+            class="rounded-full w-10 hidden md:block"
+          />
+          <span class="hidden md:block">Rhino</span>
+          <div class="hidden md:block">
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-2xl mt-6 mb-8">Good afternoon</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div
+          class="flex gap-4 mx-auto md:mx-0 items-center card rounded-md w-56 sm:w-64 md:w-auto card-hover cursor-pointer"
+        >
+          <img
+            src="./images/tth.jpeg"
+            alt="playlist-img"
+            class="w-16 lg:w-20"
+          />
+          <span>Today's Top Hits</span>
+        </div>
+        <div
+          class="flex gap-4 mx-auto md:mx-0 items-center card rounded-md w-56 sm:w-64 md:w-auto card-hover cursor-pointer"
+        >
+          <img src="./images/dm4.jpg" alt="playlist-img" class="w-16 lg:w-20" />
+          <span>Daily Mix 4</span>
+        </div>
+        <div
+          class="flex gap-4 mx-auto md:mx-0 items-center card rounded-md w-56 sm:w-64 md:w-auto card-hover cursor-pointer"
+        >
+          <img
+            src="./images/blend.jpg"
+            alt="playlist-img"
+            class="w-16 lg:w-20"
+          />
+          <span>Miss + Rhino</span>
+        </div>
+        <div
+          class="flex gap-4 mx-auto md:mx-0 items-center card rounded-md w-56 sm:w-64 md:w-auto card-hover cursor-pointer"
+        >
+          <img
+            src="./images/blend3.png"
+            alt="playlist-img"
+            class="w-16 lg:w-20"
+          />
+          <span>Bassen + Rhino</span>
+        </div>
+        <div
+          class="flex gap-4 mx-auto md:mx-0 items-center card rounded-md w-56 sm:w-64 md:w-auto card-hover cursor-pointer"
+        >
+          <img
+            src="./images/blend2.png"
+            alt="playlist-img"
+            class="w-16 lg:w-20"
+          />
+          <span>SanaaSanea + Rhino</span>
+        </div>
+        <div
+          class="flex gap-4 mx-auto md:mx-0 items-center card rounded-md w-56 sm:w-64 md:w-auto card-hover cursor-pointer"
+        >
+          <img
+            src="./images/likedsongs.jpg"
+            alt="playlist-img"
+            class="w-16 lg:w-20"
+          />
+          <span>Liked Songs</span>
+        </div>
+      </div>
+
+      <p class="text-2xl mt-6 mb-8">Made For Rhino</p>
+
+      <div
+        class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+      >
+        <div class="flex flex-col p-4 made-for-card rounded-md cursor-pointer">
+          <img src="./images/dmx1.jpeg" alt="card-img" class="" />
+          <h2 class="mt-3 mb-2">Daily Mix 1</h2>
+          <p class="font-GothamLight text-xs text-gray-300">
+            Khalid, Cozz, Justin Bieber and more
+          </p>
+        </div>
+        <div class="flex flex-col p-4 made-for-card rounded-md cursor-pointer">
+          <img src="./images/dmx2.jpeg" alt="card-img" class="" />
+          <h2 class="mt-3 mb-2">Daily Mix 2</h2>
+          <p class="font-GothamLight text-xs text-gray-300">
+            Russ, Drake, French Montana and more
+          </p>
+        </div>
+        <div class="flex flex-col p-4 made-for-card rounded-md cursor-pointer">
+          <img src="./images/dmx3.jpeg" alt="card-img" class="" />
+          <h2 class="mt-3 mb-2">Daily Mix 3</h2>
+          <p class="font-GothamLight text-xs text-gray-300">
+            Bruno Mars, Justin Timberlake, Halsey and more
+          </p>
+        </div>
+        <div class="flex flex-col p-4 made-for-card rounded-md cursor-pointer">
+          <img src="./images/dmx4.jpeg" alt="card-img" class="" />
+          <h2 class="mt-3 mb-2">Daily Mix 4</h2>
+          <p class="font-GothamLight text-xs text-gray-300">
+            Britney Spears, Selena Gomez, The Kid Laroi and more
+          </p>
+        </div>
+        <div class="flex flex-col p-4 made-for-card rounded-md cursor-pointer">
+          <img src="./images/dmx5.jpeg" alt="card-img" class="" />
+          <h2 class="mt-3 mb-2">Daily Mix 5</h2>
+          <p class="font-GothamLight text-xs text-gray-300">
+            The Weeknd, Rihanna, Post Malone and more
+          </p>
+        </div>
+        <div class="flex flex-col p-4 made-for-card rounded-md cursor-pointer">
+          <img src="./images/dmx6.jpeg" alt="card-img" class="" />
+          <h2 class="mt-3 mb-2">Daily Mix 6</h2>
+          <p class="font-GothamLight text-xs text-gray-300">
+            Mac Miller, Lil Durk, NLE Choppa and more
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

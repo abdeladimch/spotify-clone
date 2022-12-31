@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GothamLight";
+  src: url("./fonts/GothamLight.ttf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("./fonts/GothamMedium_1.ttf");
+}
+
+@font-face {
+  font-family: "GothamBold";
+  src: url("./fonts/GothamBold.ttf");
+}
+
+body {
+  background-color: #040404;
+}
+
+.hover {
+  @apply hover:opacity-80 transition duration-300 ease-out;
+}
+
+.main-section {
+  background-color: #141414;
+}
+
+.hover-profile {
+  @apply hover:opacity-90 transition duration-300 ease-out;
+}
+
+.card {
+  background-color: #243349;
+}
+
+.card-hover,
+.pfp-hover {
+  @apply hover:scale-105 transition duration-300 ease-out;
+}
+
+.made-for-card {
+  background-color: #1c1c1c;
+  @apply hover:scale-105 transition duration-300 ease-out;
+}
+
+.text-hover {
+  @apply hover:text-white transition duration-300 ease-out;
+}
